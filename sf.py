@@ -31,7 +31,7 @@ litz = input("List: ")
 website_list = read_file(litz)
 
 # ubah thread disini
-num_threads = 100
+num_threads = 60
 chunk_size = len(website_list) // num_threads
 threads = []
 
